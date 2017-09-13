@@ -22,7 +22,7 @@ function gameload(e) {
 	} else if (ui == "keep cutting" && e.keyCode == 13) {
 		var text = document.createTextNode("You keep cutting the tree and you got to cut a few.\nSuddenly, the last tree that you chopped fell on you.\nYou Died\nThank you for playing Lost\n")
 	} else if (e.keyCode == 13) {
-		var text = document.createTextNode("I Do Not Understand!")
+		var text = document.createTextNode("I Do Not Understand!\n")
 		out.appendChild(text)
 	}
 }
